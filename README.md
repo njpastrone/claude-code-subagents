@@ -14,6 +14,11 @@ Analyzes repository structure and creates/updates CLAUDE.md and README.md files 
 
 **Use case**: When you need to document an entire codebase, making it self-documenting with context files that help both humans and AI assistants understand the project structure.
 
+### 3. nn-audit
+Audits codebase against non-negotiable coding rules to ensure simplicity, clarity, and maintainability. Focuses on beginner-friendly code, error handling, and clean coding practices.
+
+**Use case**: Run periodic audits to ensure your codebase stays simple, readable, and maintainable. Great for enforcing team coding standards and teaching best practices.
+
 ## Installation
 
 These agents are automatically available in Claude Code when placed in the `~/.claude/agents/` directory.
